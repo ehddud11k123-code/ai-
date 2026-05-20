@@ -293,13 +293,13 @@ def three_body_ode(t, state, m1, m2, m3, G=1.0):
 
 ### 결과
 
-![Figure-8 궤도](outputs/01_figure8_orbit_fixed.png)
+![Figure-8 궤도](ex/outputs/01_figure8_orbit_fixed.png)
 
-![태양-지구-달](outputs/01_sun_earth_moon_fixed.png)
+![태양-지구-달](ex/outputs/01_sun_earth_moon_fixed.png)
 
-![라그랑주 L4](outputs/01_stable_three_body.png)
+![라그랑주 L4](ex/outputs/01_stable_three_body.png)
 
-![보존량 검증](outputs/01_conservation_analysis_fixed.png)
+![보존량 검증](ex/outputs/01_conservation_analysis_fixed.png)
 
 ### 수치 분석
 
@@ -344,9 +344,9 @@ dist = np.sqrt((diff**2).sum(axis=-1))                 # (n,n)
 
 ### 결과
 
-![성능 비교](outputs/02_optimization_comparison.png)
+![성능 비교](ex/outputs/02_optimization_comparison.png)
 
-![복잡도 분석](outputs/02_complexity_analysis.png)
+![복잡도 분석](ex/outputs/02_complexity_analysis.png)
 
 ### 수치 분석
 
